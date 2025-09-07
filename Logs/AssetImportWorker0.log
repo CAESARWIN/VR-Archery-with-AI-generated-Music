@@ -1,0 +1,2091 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.34f1 (5ab2d9ed9190) revision 5944025'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 32620 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\6000.0.34f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/CaesarProject/VR Archery
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54157
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: D:/CaesarProject/VR Archery
+D:/CaesarProject/VR Archery
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [29656]  Target information:
+
+Player connection [29656]  * "[IP] 192.168.255.1 [Port] 0 [Flags] 2 [Guid] 1090274037 [EditorId] 1090274037 [Version] 1048832 [Id] WindowsEditor(7,CaesarsLEGION) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [29656]  * "[IP] 192.168.161.1 [Port] 0 [Flags] 2 [Guid] 1090274037 [EditorId] 1090274037 [Version] 1048832 [Id] WindowsEditor(7,CaesarsLEGION) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [29656]  * "[IP] 10.191.73.52 [Port] 0 [Flags] 2 [Guid] 1090274037 [EditorId] 1090274037 [Version] 1048832 [Id] WindowsEditor(7,CaesarsLEGION) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [29656] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [29656] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 30.85 ms, found 23 plugins.
+Unity memory allocator detected: MetaXRAudio native memory allocations will be tracked.
+Preloading 3 native plugins for Editor in 4.37 ms.
+Initialize engine version: 6000.0.34f1 (5ab2d9ed9190)
+[Subsystems] Discovering subsystems at path D:/Unity/6000.0.34f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/CaesarProject/VR Archery/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     5996 MB
+    Driver:   32.0.15.7700
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'D:/Unity/6000.0.34f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/6000.0.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/6000.0.34f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/6000.0.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Unity/6000.0.34f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.004289 seconds.
+- Loaded All Assemblies, in  0.431 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 416 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.793 seconds
+Domain Reload Profiling: 1224ms
+	BeginReloadAssembly (168ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (162ms)
+		LoadAssemblies (169ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (157ms)
+			TypeCache.Refresh (156ms)
+				TypeCache.ScanAssembly (140ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (793ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (738ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (511ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (112ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.063 seconds
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 22.21 ms, found 23 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 27.42 ms, found 23 plugins.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    29    0    29    0     0    182      0 --:--:-- --:--:-- --:--:--   185
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.450 seconds
+Domain Reload Profiling: 2510ms
+	BeginReloadAssembly (187ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (798ms)
+		LoadAssemblies (483ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (440ms)
+			TypeCache.Refresh (318ms)
+				TypeCache.ScanAssembly (292ms)
+			BuildScriptInfoCaches (101ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1450ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1260ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (147ms)
+			ProcessInitializeOnLoadAttributes (951ms)
+			ProcessInitializeOnLoadMethodAttributes (138ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 25.55 ms, found 23 plugins.
+Preloading 3 native plugins for Editor in 0.12 ms.
+Unloading 193 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9791 unused Assets / (8.5 MB). Loaded Objects now: 10318.
+Memory consumption went from 194.5 MB to 186.0 MB.
+Total: 15.853100 ms (FindLiveObjects: 0.904800 ms CreateObjectMapping: 1.314900 ms MarkObjects: 9.084200 ms  DeleteObjects: 4.548400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2834.687214 seconds.
+  path: Assets/BNG Framework/HandPoser/Scripts/SavePoseBinding.cs
+  artifactKey: Guid(a10d71fa43ec9de4489a9036c853e83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/HandPoser/Scripts/SavePoseBinding.cs using Guid(a10d71fa43ec9de4489a9036c853e83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e935fe5dfb10c5b86bcc33c16e687ed5') in 0.005823 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002812 seconds.
+  path: Assets/BNG Framework/Scripts/Extras/Zipline.cs
+  artifactKey: Guid(7678f3d69bdd3e94c98bdc7863f3c444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Extras/Zipline.cs using Guid(7678f3d69bdd3e94c98bdc7863f3c444) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18e04deeda6e142e36f2ad44ca36f42c') in 0.0004307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008172 seconds.
+  path: Assets/BNG Framework/Scripts/Core/BNGPlayerController.cs
+  artifactKey: Guid(4688ae0e7d3f7c7498dd85852dfd2622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Core/BNGPlayerController.cs using Guid(4688ae0e7d3f7c7498dd85852dfd2622) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '257cec4c9c09436f3cd095b45d7197fe') in 0.0005082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002669 seconds.
+  path: Assets/BNG Framework/Scripts/Core/GrabbableChild.cs
+  artifactKey: Guid(586e188c6da3d574b82e417af4c10aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Core/GrabbableChild.cs using Guid(586e188c6da3d574b82e417af4c10aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ecd1eb35af771b5d1f342d317cbbc779') in 0.0003999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002787 seconds.
+  path: Assets/BNG Framework/Scripts/Components/ConstrainLocalPosition.cs
+  artifactKey: Guid(7ad23062ea9cdf44a9d1a4677a5ac042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Components/ConstrainLocalPosition.cs using Guid(7ad23062ea9cdf44a9d1a4677a5ac042) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c78f93aab0258b36dc09f689951eac21') in 0.0003852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003042 seconds.
+  path: Assets/BNG Framework/Scripts/Components/CharacterIKFollow.cs
+  artifactKey: Guid(719095685170e2c48999867d5d3958e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Components/CharacterIKFollow.cs using Guid(719095685170e2c48999867d5d3958e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57b05b80483b3b9ac5b5ed3e107eee64') in 0.0005002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002822 seconds.
+  path: Assets/BNG Framework/Scripts/Components/GrabbableBezierLine.cs
+  artifactKey: Guid(0a036c8df18de3a43ae55fc7324cd812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Components/GrabbableBezierLine.cs using Guid(0a036c8df18de3a43ae55fc7324cd812) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80b19b66155b37df06b43481465f9489') in 0.0003828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002788 seconds.
+  path: Assets/BNG Framework/Scripts/Helpers/VRIFGrabpointUpdater.cs
+  artifactKey: Guid(15f28d503ef029d46941d7b4a8295ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Helpers/VRIFGrabpointUpdater.cs using Guid(15f28d503ef029d46941d7b4a8295ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af4b36529e5074ed4a80d87d214db518') in 0.0004406 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004461 seconds.
+  path: Assets/BNG Framework/Models/BNG_Bow.fbx
+  artifactKey: Guid(47f266b2147c691429f4f84126899780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Models/BNG_Bow.fbx using Guid(47f266b2147c691429f4f84126899780) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1bdc168d75e5e8cf016c87ef39b3b96f') in 0.2184962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 62
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002279 seconds.
+  path: Assets/BNG Framework/HandPoser/Scripts/PoseableObject.cs
+  artifactKey: Guid(5581d67e7cc42c24294a5f0decf9425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/HandPoser/Scripts/PoseableObject.cs using Guid(5581d67e7cc42c24294a5f0decf9425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8b05f01b0e31d23c10042a6a5c1715d') in 0.0006404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002716 seconds.
+  path: Assets/BNG Framework/HandPoser/Scripts/HandPose.cs
+  artifactKey: Guid(d095236d72305f645a71d717903e9d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/HandPoser/Scripts/HandPose.cs using Guid(d095236d72305f645a71d717903e9d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '467c605f19dbefe389e1e998fa12a6ae') in 0.0003784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003027 seconds.
+  path: Assets/BNG Framework/Scripts/Components/ScaleBetweenPoints.cs
+  artifactKey: Guid(16c956163a2c8c34cbc059e03bc750ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Components/ScaleBetweenPoints.cs using Guid(16c956163a2c8c34cbc059e03bc750ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb657de59b99676b5e0083934f5527af') in 0.0003822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002654 seconds.
+  path: Assets/BNG Framework/Scripts/Core/ArmSwingLocomotion.cs
+  artifactKey: Guid(3fec34dce25939d4e97a80ddfbfc79b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Core/ArmSwingLocomotion.cs using Guid(3fec34dce25939d4e97a80ddfbfc79b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cea9439496d98fc0433ebb86d855f4d9') in 0.0003972 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002906 seconds.
+  path: Assets/BNG Framework/Scripts/Helpers/JointHelper.cs
+  artifactKey: Guid(e790e6dda5ecb1c4b9aea4b74647d220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Helpers/JointHelper.cs using Guid(e790e6dda5ecb1c4b9aea4b74647d220) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de7acbb5ebad49ef2db1e72bfe45f0c1') in 0.0003626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002755 seconds.
+  path: Assets/BNG Framework/Scripts/Helpers/TeleportDestination.cs
+  artifactKey: Guid(8b4cde4cf3c67744fa0394839eb46dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Helpers/TeleportDestination.cs using Guid(8b4cde4cf3c67744fa0394839eb46dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '923c0134c297fd6fadb39dff9c9bca90') in 0.0003812 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002701 seconds.
+  path: Assets/BNG Framework/Scripts/Weapons/BulletInsert.cs
+  artifactKey: Guid(18d57cb013c9aca4ea7c67d6ac5ce11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Weapons/BulletInsert.cs using Guid(18d57cb013c9aca4ea7c67d6ac5ce11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4385371b5ee064b4d89299877358edca') in 0.0003712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003153 seconds.
+  path: Assets/BNG Framework/Scripts/Extras/LiquidWobble.cs
+  artifactKey: Guid(81590f12a0325034f9519c8ca58f7d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Extras/LiquidWobble.cs using Guid(81590f12a0325034f9519c8ca58f7d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae679d170962b26d8358f85f7233fa8b') in 0.0004118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002956 seconds.
+  path: Assets/BNG Framework/Scripts/Components/GrabbableHighlightMaterial.cs
+  artifactKey: Guid(b2cfa1c7db5e34546baa6f2c7b01ff26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Components/GrabbableHighlightMaterial.cs using Guid(b2cfa1c7db5e34546baa6f2c7b01ff26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8a4cc123a1dafb9f19f40ea1c52bb9b') in 0.0003733 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002705 seconds.
+  path: Assets/BNG Framework/Scripts/Components/GrabbableAudio.cs
+  artifactKey: Guid(8bec4a0bec254114fa953c748bee4918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Components/GrabbableAudio.cs using Guid(8bec4a0bec254114fa953c748bee4918) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd939fca277912ff417a4057b66699511') in 0.0003577 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002975 seconds.
+  path: Assets/BNG Framework/Scripts/Extras/Marker.cs
+  artifactKey: Guid(96b356c417e7d67419c104afeeff8633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Extras/Marker.cs using Guid(96b356c417e7d67419c104afeeff8633) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '763f4964adae803d646e98fb1ec15d48') in 0.0004685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002973 seconds.
+  path: Assets/BNG Framework/Scripts/Helpers/JointBreaker.cs
+  artifactKey: Guid(90e58b230f0183d46a6e0154257629b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Helpers/JointBreaker.cs using Guid(90e58b230f0183d46a6e0154257629b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36fa34021d02da984fceac01766ea46a') in 0.0003707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002746 seconds.
+  path: Assets/BNG Framework/Scripts/Helpers/IgnoreColliders.cs
+  artifactKey: Guid(c01404a5a30ea2e4db8fd7d34b4390b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Helpers/IgnoreColliders.cs using Guid(c01404a5a30ea2e4db8fd7d34b4390b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52c6fbe24f9c4adf64cd80a72f3eb840') in 0.0003511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003170 seconds.
+  path: Assets/BNG Framework/Editor/ButtonEditor.cs
+  artifactKey: Guid(a7c7963112d528647aa8031c80dc54c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Editor/ButtonEditor.cs using Guid(a7c7963112d528647aa8031c80dc54c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f41e4e4621e98d63bd4f6fd89b1f68d') in 0.0004345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002944 seconds.
+  path: Assets/BNG Framework/Scripts/Core/JoystickControl.cs
+  artifactKey: Guid(929fd7fcd63ea3b41bbcff15ab0f23fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Core/JoystickControl.cs using Guid(929fd7fcd63ea3b41bbcff15ab0f23fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e1eef6f343e38f885cabcd283339956') in 0.0003809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002894 seconds.
+  path: Assets/BNG Framework/Scripts/Components/GrabbableRingHelper.cs
+  artifactKey: Guid(9b5b1b54556836a49948cf0f09394c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Components/GrabbableRingHelper.cs using Guid(9b5b1b54556836a49948cf0f09394c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efc480492e0846d6a98f3b8d1f1e9622') in 0.0003703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002973 seconds.
+  path: Assets/BNG Framework/Scripts/Extras/CustomCenterOfMass.cs
+  artifactKey: Guid(e6c323e527436d0409d4dd15d90d7d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Extras/CustomCenterOfMass.cs using Guid(e6c323e527436d0409d4dd15d90d7d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd33fa78bcb83705b10564912d0e91cd9') in 0.0005386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003135 seconds.
+  path: Assets/BNG Framework/Scripts/Helpers/HandleHelper.cs
+  artifactKey: Guid(bbc0141ad1a5df74aac7678efafbea51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Helpers/HandleHelper.cs using Guid(bbc0141ad1a5df74aac7678efafbea51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09a696d75dac417b28784fcd910df798') in 0.0004475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004092 seconds.
+  path: Assets/BNG Framework/Textures/tex_tex_jihi_wire_166229229_BaseColor.png
+  artifactKey: Guid(b07f17b5d8d5e384da2d417a24381ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Textures/tex_tex_jihi_wire_166229229_BaseColor.png using Guid(b07f17b5d8d5e384da2d417a24381ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55904eb761f79b7a5add37f8838b989e') in 0.0201015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003301 seconds.
+  path: Assets/BNG Framework/Scripts/Extras/SlidingDoorMover.cs
+  artifactKey: Guid(836cb5ab5edbe944ea86c1f90a21910a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Extras/SlidingDoorMover.cs using Guid(836cb5ab5edbe944ea86c1f90a21910a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63033a70e2962b9897ded4cff8719fa9') in 0.0005371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002806 seconds.
+  path: Assets/BNG Framework/Scripts/Components/SnapZoneRingHelper.cs
+  artifactKey: Guid(85dfa35857b0b06448633d97d10d1f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Components/SnapZoneRingHelper.cs using Guid(85dfa35857b0b06448633d97d10d1f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a7ed92aa8877b7378bb048c64820843') in 0.0004118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002803 seconds.
+  path: Assets/BNG Framework/Scripts/Utility/VRUtils.cs
+  artifactKey: Guid(a8ef3fb08709aab4cb6e18ac7630ea73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Utility/VRUtils.cs using Guid(a8ef3fb08709aab4cb6e18ac7630ea73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '164e474cf3f1cc9fff0e7f6824ef84f1') in 0.0003907 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002885 seconds.
+  path: Assets/BNG Framework/Scripts/Weapons/AmmoDispenser.cs
+  artifactKey: Guid(a9b77b5fb647a9340840cb55b65baae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Weapons/AmmoDispenser.cs using Guid(a9b77b5fb647a9340840cb55b65baae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73eef766b66bd3f383f18d6f0aaedfec') in 0.0003797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002999 seconds.
+  path: Assets/BNG Framework/Scripts/Core/Lever.cs
+  artifactKey: Guid(a9b9a237349493c4ba449ee953f41834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Core/Lever.cs using Guid(a9b9a237349493c4ba449ee953f41834) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f49453c886cb4ff6f40c3156de224865') in 0.0003429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002933 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.8/Starter Assets/Scripts/MaterialPipelineHandler.cs
+  artifactKey: Guid(e7883133e628dff4a86f50c082f77055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.8/Starter Assets/Scripts/MaterialPipelineHandler.cs using Guid(e7883133e628dff4a86f50c082f77055) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72b0c109d145cac61a7f3239b2726cfb') in 0.0004638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002883 seconds.
+  path: Assets/BNG Framework/Scripts/Helpers/RingHelper.cs
+  artifactKey: Guid(6adc4fd6a6abfed4f907473a5fffa431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Helpers/RingHelper.cs using Guid(6adc4fd6a6abfed4f907473a5fffa431) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46fa8893ccb2a1362ddfea23ef958543') in 0.0004138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002981 seconds.
+  path: Assets/BNG Framework/Scripts/Utility/FixNonUniformScale.cs
+  artifactKey: Guid(fee8279a47ff75f46b7c852ece1888d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Utility/FixNonUniformScale.cs using Guid(fee8279a47ff75f46b7c852ece1888d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a3551e123553619ca0c86465261f562') in 0.0004103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002925 seconds.
+  path: Assets/BNG Framework/HandPoser/Scripts/BoneMapping.cs
+  artifactKey: Guid(a76fc20608f0bce4689651899ab0de73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/HandPoser/Scripts/BoneMapping.cs using Guid(a76fc20608f0bce4689651899ab0de73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fb95d89d38bf12d7bf629a43e5d823d') in 0.0004162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002578 seconds.
+  path: Assets/BNG Framework/HandPoser/Scripts/FingerTipCollider.cs
+  artifactKey: Guid(b82ce7588ea2eb74e864e8834b8aaa05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/HandPoser/Scripts/FingerTipCollider.cs using Guid(b82ce7588ea2eb74e864e8834b8aaa05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ae501ed6a15d90c60011579c40fd7a1') in 0.0003589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002757 seconds.
+  path: Assets/BNG Framework/Scripts/Helpers/HandController.cs
+  artifactKey: Guid(0e97e54343fcd4e4b81f6e22d317008a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Helpers/HandController.cs using Guid(0e97e54343fcd4e4b81f6e22d317008a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0231b3c82f20ffe720d2adf0a300290') in 0.0003716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002769 seconds.
+  path: Assets/BNG Framework/Scripts/Core/SteeringWheel.cs
+  artifactKey: Guid(fcd4e1c27cf052240863dd47c27c83d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Core/SteeringWheel.cs using Guid(fcd4e1c27cf052240863dd47c27c83d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd77f19fc85e8e59761e10449f365cbd2') in 0.00039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005664 seconds.
+  path: Assets/BNG Framework/Scripts/Components/DestroyObjectWithDelay.cs
+  artifactKey: Guid(35a35525876b201479282aa3c5fae8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Components/DestroyObjectWithDelay.cs using Guid(35a35525876b201479282aa3c5fae8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd074682bb0d5070aceb9ed61ae5ac2b3') in 0.0005091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002841 seconds.
+  path: Assets/BNG Framework/Scripts/Components/RotateTowards.cs
+  artifactKey: Guid(992b13f754a8f4847bcc71422dc7a2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Components/RotateTowards.cs using Guid(992b13f754a8f4847bcc71422dc7a2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f5dd6c8e79994114adaa7679e9288aa') in 0.0007389 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003014 seconds.
+  path: Assets/BNG Framework/Scripts/Helpers/ControllerOffsetHelper.cs
+  artifactKey: Guid(724cf5ac358dfa945bd295f49cb7d755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Helpers/ControllerOffsetHelper.cs using Guid(724cf5ac358dfa945bd295f49cb7d755) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6fa5685ffea2553179d1b7f2fa6b2f98') in 0.0004617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002862 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.8/Starter Assets/Scripts/RotationAxisLockGrabTransformer.cs
+  artifactKey: Guid(4dd2e41114c62b44fbd334ca5b314352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.8/Starter Assets/Scripts/RotationAxisLockGrabTransformer.cs using Guid(4dd2e41114c62b44fbd334ca5b314352) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1b300f9421b7ca7c58df27c67f04970') in 0.000429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002960 seconds.
+  path: Assets/BNG Framework/Scripts/Components/GrabbableHighlight.cs
+  artifactKey: Guid(8ae960e70a1aab44eaea6335434c405f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Components/GrabbableHighlight.cs using Guid(8ae960e70a1aab44eaea6335434c405f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f03d972e49a905c985d7c8a023ebdcb') in 0.000442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002911 seconds.
+  path: Assets/BNG Framework/Scripts/Components/FollowTransform.cs
+  artifactKey: Guid(c4cd6efc1c18329408933292eeeb037a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Components/FollowTransform.cs using Guid(c4cd6efc1c18329408933292eeeb037a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb89693c41b0f8428acea3ce41b6b09d') in 0.0004043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002670 seconds.
+  path: Assets/BNG Framework/Scripts/Utility/DestroyIfPlayMode.cs
+  artifactKey: Guid(a946f7344c486704badbda60741c6c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Utility/DestroyIfPlayMode.cs using Guid(a946f7344c486704badbda60741c6c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb35d1f0f7ba54a11090f8e42a8a87f9') in 0.0003835 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003088 seconds.
+  path: Assets/BNG Framework/Scripts/Extras/IKDummy.cs
+  artifactKey: Guid(d3de22a0428b393469248d1470fd4961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Extras/IKDummy.cs using Guid(d3de22a0428b393469248d1470fd4961) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '537cbc2b9c97d725a310dd102231a7d3') in 0.0004498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002950 seconds.
+  path: Assets/BNG Framework/Scripts/Weapons/Projectile.cs
+  artifactKey: Guid(c079485b3cec8a14c85546b51a8b27b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Weapons/Projectile.cs using Guid(c079485b3cec8a14c85546b51a8b27b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14e31d4ae3a1b0b4af59af0eac6cb51a') in 0.0003933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003353 seconds.
+  path: Assets/BNG Framework/Scripts/Extras/VREmulator.cs
+  artifactKey: Guid(f4b00acd070e37747b9e19b276d11877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Extras/VREmulator.cs using Guid(f4b00acd070e37747b9e19b276d11877) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c51370707f3e02e231c34d25c03bd7d') in 0.0004049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003834 seconds.
+  path: Assets/BNG Framework/Textures/tex_tex_jihi_wire_166229229_Normal.png
+  artifactKey: Guid(00c0fdeacb0cd1d4e858840c2c459fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Textures/tex_tex_jihi_wire_166229229_Normal.png using Guid(00c0fdeacb0cd1d4e858840c2c459fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d016043d80072d34b9065f65734e566') in 0.0201688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002630 seconds.
+  path: Assets/BNG Framework/Scripts/Core/LocomotionManager.cs
+  artifactKey: Guid(1bd2fd7429a30714ca570a60a988ab32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Core/LocomotionManager.cs using Guid(1bd2fd7429a30714ca570a60a988ab32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd44fa0fc2b0149c8fa9ec0e01151a80') in 0.0005389 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002878 seconds.
+  path: Assets/BNG Framework/Scripts/Components/DamageCollider.cs
+  artifactKey: Guid(821cfb7c3eab3764bbb57d764c6e26d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Components/DamageCollider.cs using Guid(821cfb7c3eab3764bbb57d764c6e26d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d4485da4fa4e792e1401f7358ad867a') in 0.0004665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002801 seconds.
+  path: Assets/BNG Framework/Scripts/UI/VRCanvas.cs
+  artifactKey: Guid(7ee805472840d5843b863535775bbe97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/UI/VRCanvas.cs using Guid(7ee805472840d5843b863535775bbe97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92e9d4a5d03701613fa6c27e8cb1a15c') in 0.0004148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002767 seconds.
+  path: Assets/BNG Framework/Scripts/Core/SliderLinear.cs
+  artifactKey: Guid(43f0f5bb5376022428ef358723870c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Core/SliderLinear.cs using Guid(43f0f5bb5376022428ef358723870c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a047be93a06a472e59e80e93c7255d1') in 0.0003996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002745 seconds.
+  path: Assets/BNG Framework/Scripts/Weapons/Bullet.cs
+  artifactKey: Guid(6cbc4f6b0962ca24bab3e32211517f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Weapons/Bullet.cs using Guid(6cbc4f6b0962ca24bab3e32211517f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa6f7ba918c1bbd16a16ef4fe1b168b8') in 0.0005043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002958 seconds.
+  path: Assets/BNG Framework/Scripts/Components/GrabAction.cs
+  artifactKey: Guid(5d5be54ff720e43488e1738e2db6b6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Components/GrabAction.cs using Guid(5d5be54ff720e43488e1738e2db6b6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b3e3146db8e5995bb8513188f086512') in 0.000444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002901 seconds.
+  path: Assets/BNG Framework/Scripts/Extras/Bow.cs
+  artifactKey: Guid(c50e263386e3b804a8edea0d5554f63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Extras/Bow.cs using Guid(c50e263386e3b804a8edea0d5554f63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e1cd4562fb6b3f09f96361dc125760a') in 0.0004221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003294 seconds.
+  path: Assets/BNG Framework/Editor/GrabPointEditor.cs
+  artifactKey: Guid(465e524e9d393e645a1b689cc5314254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Editor/GrabPointEditor.cs using Guid(465e524e9d393e645a1b689cc5314254) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08af5dd672193216338dc78bd82e1dc5') in 0.0004386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002925 seconds.
+  path: Assets/BNG Framework/Scripts/UI/VRKeyboardKey.cs
+  artifactKey: Guid(8dfb9fa1bcff5b246b9da1abd878cdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/UI/VRKeyboardKey.cs using Guid(8dfb9fa1bcff5b246b9da1abd878cdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '949e3f83452afaff607922a813388ecb') in 0.0003793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002939 seconds.
+  path: Assets/BNG Framework/Scripts/UI/VRTextInput.cs
+  artifactKey: Guid(05b10709dc8df3e4c9575d8bb6be6008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/UI/VRTextInput.cs using Guid(05b10709dc8df3e4c9575d8bb6be6008) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '974efed49f9fa86a7afddabd0696c876') in 0.0004742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003083 seconds.
+  path: Assets/BNG Framework/Scripts/Extras/Arrow.cs
+  artifactKey: Guid(470b955f5c71e0742bd023ab27b0629a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Extras/Arrow.cs using Guid(470b955f5c71e0742bd023ab27b0629a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93de1b40e0b86bfcbea2685e0e30f94e') in 0.0004454 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002774 seconds.
+  path: Assets/BNG Framework/Scripts/UI/UIButtonCollider.cs
+  artifactKey: Guid(a209a1a1d07a8b149a261d14a2309421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/UI/UIButtonCollider.cs using Guid(a209a1a1d07a8b149a261d14a2309421) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2feeca9a90ea60d387a2004bbf1f9ac') in 0.0003473 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002629 seconds.
+  path: Assets/BNG Framework/Scripts/Components/CharacterYOffset.cs
+  artifactKey: Guid(60237b13a7581594f861c5d570d463cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Components/CharacterYOffset.cs using Guid(60237b13a7581594f861c5d570d463cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b93973b4c95789595cb27d15c3b825d7') in 0.0003745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002866 seconds.
+  path: Assets/BNG Framework/Scripts/Components/LineToTransform.cs
+  artifactKey: Guid(59153711998f9ff48949670066a9dddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Components/LineToTransform.cs using Guid(59153711998f9ff48949670066a9dddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5b0cc5f889f375ac30a68c2f4eb597a') in 0.0004349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003159 seconds.
+  path: Assets/BNG Framework/Scripts/Core/TrackedDevice.cs
+  artifactKey: Guid(6d9560e911de58f4cb0d9f82e68ff296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Core/TrackedDevice.cs using Guid(6d9560e911de58f4cb0d9f82e68ff296) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '783f6b3af830475bd1958a74b6bef535') in 0.0003751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002996 seconds.
+  path: Assets/BNG Framework/Scripts/Extras/HandJet.cs
+  artifactKey: Guid(e701509a48c910e4493a492dea586d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Extras/HandJet.cs using Guid(e701509a48c910e4493a492dea586d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '983a2dfa21ed8f7d73c96110807772ca') in 0.0004355 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003069 seconds.
+  path: Assets/BNG Framework/Scripts/Components/GrabbableHaptics.cs
+  artifactKey: Guid(b90ed01ac5d94e9468b242b4c38496a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Components/GrabbableHaptics.cs using Guid(b90ed01ac5d94e9468b242b4c38496a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '614726b7136696fadf7039035f9ae78d') in 0.0003923 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002785 seconds.
+  path: Assets/BNG Framework/Scripts/Core/SnapZoneScale.cs
+  artifactKey: Guid(1bf056c6a3c5d3844912dc06d0a30eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Core/SnapZoneScale.cs using Guid(1bf056c6a3c5d3844912dc06d0a30eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '519dcf12b69e21e26f0fd26d144c063e') in 0.0004099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002931 seconds.
+  path: Assets/BNG Framework/Scripts/Extras/ExtensionMethods.cs
+  artifactKey: Guid(c25b7eda3d1a20a498f1d911fb7dfe45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Extras/ExtensionMethods.cs using Guid(c25b7eda3d1a20a498f1d911fb7dfe45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '614624faa6e69c260d13fe4aa7411a5a') in 0.000371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003049 seconds.
+  path: Assets/BNG Framework/Scripts/Extras/Flashlight.cs
+  artifactKey: Guid(bb56c20926ae04d4689b2a5db3a06908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Extras/Flashlight.cs using Guid(bb56c20926ae04d4689b2a5db3a06908) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8979c4f10fdb20c9eaffa6337f32448') in 0.0003704 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002731 seconds.
+  path: Assets/BNG Framework/Scripts/Weapons/Magazine.cs
+  artifactKey: Guid(e7b97f67b2888464b86cea4d79ff47e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Weapons/Magazine.cs using Guid(e7b97f67b2888464b86cea4d79ff47e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cef78ec70b0478ca5baff8ce371afd86') in 0.0003404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002735 seconds.
+  path: Assets/BNG Framework/Scripts/Core/RemoteGrabber.cs
+  artifactKey: Guid(41d0df6a3b401c64583949696b1dba43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Core/RemoteGrabber.cs using Guid(41d0df6a3b401c64583949696b1dba43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a0e538eb566500796b0c8cb28dcdc05') in 0.0003631 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002928 seconds.
+  path: Assets/BNG Framework/Scripts/Core/ControllerModelSelector.cs
+  artifactKey: Guid(55701ff9473f03d49a7d3fee7a507ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Core/ControllerModelSelector.cs using Guid(55701ff9473f03d49a7d3fee7a507ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f14673d0b771919ada762aff80ddcf7') in 0.0004514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002868 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.8/Starter Assets/Scripts/XRPokeFollowAffordance.cs
+  artifactKey: Guid(07b3638c2f5db5b479ff24c2859713d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.8/Starter Assets/Scripts/XRPokeFollowAffordance.cs using Guid(07b3638c2f5db5b479ff24c2859713d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19704946cb5f14e577e276b0f7b7495f') in 0.000398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002776 seconds.
+  path: Assets/BNG Framework/Scripts/Components/CollisionSound.cs
+  artifactKey: Guid(c575c9380b9d239499fadf100ef2800b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Components/CollisionSound.cs using Guid(c575c9380b9d239499fadf100ef2800b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1701c51fe622e453d219ecd395856fda') in 0.0003626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002724 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.8/Starter Assets/Scripts/DynamicMoveProvider.cs
+  artifactKey: Guid(9b1e8c997df241c1a67045eeac79b41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.8/Starter Assets/Scripts/DynamicMoveProvider.cs using Guid(9b1e8c997df241c1a67045eeac79b41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c09f1b567c0f05a6f1dffcf6f42b86e') in 0.0005575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002913 seconds.
+  path: Assets/BNG Framework/Scripts/Extras/Waypoint.cs
+  artifactKey: Guid(4070aa24106e4e940927ff4eae42fb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Extras/Waypoint.cs using Guid(4070aa24106e4e940927ff4eae42fb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7d0d2225c53da365208ef8ab7d40a5e') in 0.0004638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003166 seconds.
+  path: Assets/BNG Framework/Scripts/UI/UIPointer.cs
+  artifactKey: Guid(a3c617ac42a6be146adcb780250b8eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/UI/UIPointer.cs using Guid(a3c617ac42a6be146adcb780250b8eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8cfd5c4d22308c93ab42a81a51371cb9') in 0.0004108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003098 seconds.
+  path: Assets/BNG Framework/Scripts/Helpers/HandleGFXHelper.cs
+  artifactKey: Guid(34d1f1e3d26e9c7448a5d1591e5114db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Helpers/HandleGFXHelper.cs using Guid(34d1f1e3d26e9c7448a5d1591e5114db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1bcefa74d12cd57b4f52981a6bada62d') in 0.0004874 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003106 seconds.
+  path: Assets/BNG Framework/Scripts/Core/SnapZone.cs
+  artifactKey: Guid(55b646e2949ffb74c9ca8c512b4411df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Core/SnapZone.cs using Guid(55b646e2949ffb74c9ca8c512b4411df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'add443025bd6dd31453e59b2479068cf') in 0.0004679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003037 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.8/Starter Assets/Editor/Scripts/StarterAssetsSampleProjectValidation.cs
+  artifactKey: Guid(ef67ceb22b2224643a2d5004fc2a678a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.8/Starter Assets/Editor/Scripts/StarterAssetsSampleProjectValidation.cs using Guid(ef67ceb22b2224643a2d5004fc2a678a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51d87d8da80335e08b439131d4818282') in 0.0004042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002729 seconds.
+  path: Assets/BNG Framework/Scripts/Helpers/DetachableLimb.cs
+  artifactKey: Guid(a98e6efa52b20704388232930020107f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Helpers/DetachableLimb.cs using Guid(a98e6efa52b20704388232930020107f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e389dce1d1d0871a2d3c671f3921736') in 0.0004231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002842 seconds.
+  path: Assets/BNG Framework/Editor/PluginsEditor.cs
+  artifactKey: Guid(32b18f3f07b6a9242a7ef166f977a271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Editor/PluginsEditor.cs using Guid(32b18f3f07b6a9242a7ef166f977a271) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a56515cfa7976e72bacf37f1c239986f') in 0.0003759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002632 seconds.
+  path: Assets/BNG Framework/Scripts/Core/PlayerRotation.cs
+  artifactKey: Guid(3c7abe05ae0fe07459d7ae7afed8b792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Core/PlayerRotation.cs using Guid(3c7abe05ae0fe07459d7ae7afed8b792) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96b73f5545f564597e61755f0144987b') in 0.0003723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002895 seconds.
+  path: Assets/BNG Framework/Scripts/Core/GrabPoint.cs
+  artifactKey: Guid(ab52d2f563d6a2547a95671c153ebbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Core/GrabPoint.cs using Guid(ab52d2f563d6a2547a95671c153ebbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b38e1a62d231faa909b36f88cf9ee502') in 0.0004514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002713 seconds.
+  path: Assets/BNG Framework/Scripts/Extras/FPSText.cs
+  artifactKey: Guid(4eb1eedca1aa0f14ab1ebbd021cc7051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Extras/FPSText.cs using Guid(4eb1eedca1aa0f14ab1ebbd021cc7051) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b89667e11791dde557e0ccc7005ff018') in 0.0003767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002784 seconds.
+  path: Assets/BNG Framework/Scripts/UI/VRKeyboard.cs
+  artifactKey: Guid(d370be602c2d2e7439370039b8edee0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/UI/VRKeyboard.cs using Guid(d370be602c2d2e7439370039b8edee0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e707404e305cba90342cf51d10f13b82') in 0.0003902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002999 seconds.
+  path: Assets/BNG Framework/Scripts/Extras/SceneLoader.cs
+  artifactKey: Guid(6b6475f5812b7c740b6b82e4b0f347cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Extras/SceneLoader.cs using Guid(6b6475f5812b7c740b6b82e4b0f347cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64524d81b30ccc37a2bd7145fe27a871') in 0.0004377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002776 seconds.
+  path: Assets/BNG Framework/Scripts/Core/GrabbableUnityEvents.cs
+  artifactKey: Guid(ad179a9e83dba5142adaaf7737678e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Core/GrabbableUnityEvents.cs using Guid(ad179a9e83dba5142adaaf7737678e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ccb8f2c0af93c9b52c01c8c3f6b6e48e') in 0.000396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002833 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.8/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs
+  artifactKey: Guid(e766f86cb7d2461683eb37d8a971fb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.8/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs using Guid(e766f86cb7d2461683eb37d8a971fb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac1d102bafbc6a9753649ddc52b0319d') in 0.0004174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003157 seconds.
+  path: Assets/BNG Framework/Editor/InputBridgeEditor.cs
+  artifactKey: Guid(0b5c1dc5399de6a43a718ace58b6e131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Editor/InputBridgeEditor.cs using Guid(0b5c1dc5399de6a43a718ace58b6e131) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b53dd5be5713c382a671ca2561ffeddb') in 0.0004054 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003025 seconds.
+  path: Assets/BNG Framework/HandPoser/Scripts/SampleHandController.cs
+  artifactKey: Guid(1b208411c7bd7ef40b7135d56c9762cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/HandPoser/Scripts/SampleHandController.cs using Guid(1b208411c7bd7ef40b7135d56c9762cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a1218e7c16804a3268f0d4b4b5170d6') in 0.0004204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002796 seconds.
+  path: Assets/BNG Framework/Scripts/Components/RotateWithHMD.cs
+  artifactKey: Guid(943d174babc32b249a27918baa15e648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Components/RotateWithHMD.cs using Guid(943d174babc32b249a27918baa15e648) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '245ca4fdb68eda3a56fdf43b22c702dd') in 0.0004077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002879 seconds.
+  path: Assets/BNG Framework/Scripts/Weapons/RaycastWeapon.cs
+  artifactKey: Guid(0ae1334e1a843914ea215ac160781472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Weapons/RaycastWeapon.cs using Guid(0ae1334e1a843914ea215ac160781472) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53170e2ba88aa89be61d1c9ce6761c6f') in 0.0005212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003036 seconds.
+  path: Assets/BNG Framework/Scripts/Extras/LaserSword.cs
+  artifactKey: Guid(d07ec5859025c404087d4a6ba74c51a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Extras/LaserSword.cs using Guid(d07ec5859025c404087d4a6ba74c51a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '161600072441561dc55e5728cccc0476') in 0.0004189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003022 seconds.
+  path: Assets/BNG Framework/HandPoser/Scripts/XRTrackedPoseDriver.cs
+  artifactKey: Guid(1b1ce5abb8198574d8894ea2dbc00d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/HandPoser/Scripts/XRTrackedPoseDriver.cs using Guid(1b1ce5abb8198574d8894ea2dbc00d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae457ed457b62f8c0381c875716685d8') in 0.0005183 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002785 seconds.
+  path: Assets/BNG Framework/Scripts/Components/Tooltip.cs
+  artifactKey: Guid(c29fc697480a3eb41b5f427c4b070da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Components/Tooltip.cs using Guid(c29fc697480a3eb41b5f427c4b070da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dbc079d913e1296f6ad2566ca77a0928') in 0.0004657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002981 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.8/Starter Assets/Scripts/DestroySelf.cs
+  artifactKey: Guid(717c12e2a4cfe764ab2580b1135e10fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.8/Starter Assets/Scripts/DestroySelf.cs using Guid(717c12e2a4cfe764ab2580b1135e10fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f20724ac286949899f0320a02fff7dc') in 0.0004229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003076 seconds.
+  path: Assets/BNG Framework/Scripts/Helpers/InvalidTeleportArea.cs
+  artifactKey: Guid(7fad0fc753c69574da87f7386983a466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Helpers/InvalidTeleportArea.cs using Guid(7fad0fc753c69574da87f7386983a466) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0900949e1f314e37a59fce3122c479f') in 0.0007724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004369 seconds.
+  path: Assets/BNG Framework/Integrations/XR Interaction Toolkit/XRHandsController.cs
+  artifactKey: Guid(e74da90fb41de51429774c75b4b487e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Integrations/XR Interaction Toolkit/XRHandsController.cs using Guid(e74da90fb41de51429774c75b4b487e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'deacca286cab16606c1246a49161ef84') in 0.0011077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008810 seconds.
+  path: Assets/BNG Framework/Scripts/Weapons/AmmoDisplay.cs
+  artifactKey: Guid(7f79f06b8c5379044816aacbeedec4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Weapons/AmmoDisplay.cs using Guid(7f79f06b8c5379044816aacbeedec4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98c7c8e0c3966da93269f023fdd4de6b') in 0.0009321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004864 seconds.
+  path: Assets/Scripts/JoinRoom.cs
+  artifactKey: Guid(bbc989a3673786f48afda3ef04ee720a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/JoinRoom.cs using Guid(bbc989a3673786f48afda3ef04ee720a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e09a406c44d50e936d4f041410928534') in 0.0011404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005412 seconds.
+  path: Assets/BNG Framework/Scripts/Extras/Explosive.cs
+  artifactKey: Guid(4eb0f241c3268f248a7fea862e7d35e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Extras/Explosive.cs using Guid(4eb0f241c3268f248a7fea862e7d35e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c3b700ec643c6eee7c35260ec632f12') in 0.0009746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005592 seconds.
+  path: Assets/BNG Framework/Scripts/Core/GrabbableEvents.cs
+  artifactKey: Guid(692746f54d4e1c548ba0bffbc51a3f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Core/GrabbableEvents.cs using Guid(692746f54d4e1c548ba0bffbc51a3f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6513103a7c48522703abeed5660eda80') in 0.0010061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005176 seconds.
+  path: Assets/BNG Framework/HandPoser/Scripts/EditorHandle.cs
+  artifactKey: Guid(55fa0ad391040c8449bfc1f5395388d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/HandPoser/Scripts/EditorHandle.cs using Guid(55fa0ad391040c8449bfc1f5395388d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '737c906ddfe929387a1ee0658edb1b5f') in 0.0008508 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004903 seconds.
+  path: Assets/BNG Framework/Scripts/Extras/AutoGrabGrabbable.cs
+  artifactKey: Guid(32bd11e6f08d00d42a4f175a9c1cd0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Extras/AutoGrabGrabbable.cs using Guid(32bd11e6f08d00d42a4f175a9c1cd0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b0a58996ddb4e057e1de5ae0511e29c') in 0.0009923 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005380 seconds.
+  path: Assets/BNG Framework/Scripts/Components/LookAtTransform.cs
+  artifactKey: Guid(5a4d87fa387c8884fa0d9876ca348943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Components/LookAtTransform.cs using Guid(5a4d87fa387c8884fa0d9876ca348943) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d63e49ba9fc049258ac6ab1259966fa') in 0.0009646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004905 seconds.
+  path: Assets/BNG Framework/Scripts/UI/VRUISystem.cs
+  artifactKey: Guid(b98ba066fd33ded4aa6474529973e6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/UI/VRUISystem.cs using Guid(b98ba066fd33ded4aa6474529973e6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32798516e20757d8c64227f409376730') in 0.0008525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005016 seconds.
+  path: Assets/BNG Framework/Scripts/Core/PlayerGravity.cs
+  artifactKey: Guid(423761fea517b5a45bf554817601eb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Core/PlayerGravity.cs using Guid(423761fea517b5a45bf554817601eb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd003e44306c42acc87854f2194c665f1') in 0.001051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005032 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.8/Starter Assets/Scripts/ObjectSpawner.cs
+  artifactKey: Guid(956dd6cf70eaca449a45b6a95b96c8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.8/Starter Assets/Scripts/ObjectSpawner.cs using Guid(956dd6cf70eaca449a45b6a95b96c8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c85851caca987f4441f2ee3893bb2165') in 0.000874 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004879 seconds.
+  path: Assets/BNG Framework/HandPoser/Scripts/SkeletonVisualizer.cs
+  artifactKey: Guid(45802d8126c80674886a1c7b14960856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/HandPoser/Scripts/SkeletonVisualizer.cs using Guid(45802d8126c80674886a1c7b14960856) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da0a7e5a7ad770710c4325bbfa3dd1e4') in 0.0009008 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004829 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.8/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs
+  artifactKey: Guid(e001d3dc91354f8f8c590b4e1d1d3da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.8/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs using Guid(e001d3dc91354f8f8c590b4e1d1d3da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56f2c25abd91db52472f9754cf7e5f91') in 0.0009437 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004943 seconds.
+  path: Assets/BNG Framework/Scripts/Helpers/ScaleMaterialHelper.cs
+  artifactKey: Guid(6599d2af8fefff34b9b22d7353d5784d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Helpers/ScaleMaterialHelper.cs using Guid(6599d2af8fefff34b9b22d7353d5784d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76944e34b659659e8f35111a35365bea') in 0.0010091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005241 seconds.
+  path: Assets/BNG Framework/Scripts/Core/HingeHelper.cs
+  artifactKey: Guid(413cb8bd823819248b15267198040e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Core/HingeHelper.cs using Guid(413cb8bd823819248b15267198040e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd32111067aba04b3ff052ac1f24fb0b') in 0.0009038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004905 seconds.
+  path: Assets/BNG Framework/Materials/Bow.mat
+  artifactKey: Guid(2c36e0cdfef270a438af94a5af550b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Materials/Bow.mat using Guid(2c36e0cdfef270a438af94a5af550b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe35fd1c5243ce2add1bb1409dc858fb') in 0.0581192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004166 seconds.
+  path: Assets/BNG Framework/Sounds/bow_sounds.wav
+  artifactKey: Guid(94a1f6335bc1ce441bf6dd56040e511c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Sounds/bow_sounds.wav using Guid(94a1f6335bc1ce441bf6dd56040e511c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5a94b50eee05628b20720c0d0016332') in 0.029983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002357 seconds.
+  path: Assets/BNG Framework/Scripts/Components/CharacterIK.cs
+  artifactKey: Guid(36a7f3e9d0fb76e44b7723db02aca7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Components/CharacterIK.cs using Guid(36a7f3e9d0fb76e44b7723db02aca7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2b709cb986b32767d4bf45bcfc3bb41') in 0.0004597 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003109 seconds.
+  path: Assets/BNG Framework/Scripts/Extras/ProjectileLauncher.cs
+  artifactKey: Guid(84b9f0ff530dce347b71aeb31012f93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Extras/ProjectileLauncher.cs using Guid(84b9f0ff530dce347b71aeb31012f93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9621711c446a072345cef48156b77a91') in 0.0004013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002978 seconds.
+  path: Assets/BNG Framework/Scripts/Helpers/GrabberArea.cs
+  artifactKey: Guid(6ea191e1b1592ab4ab21fc2d668a9d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Helpers/GrabberArea.cs using Guid(6ea191e1b1592ab4ab21fc2d668a9d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c2c9f4a86ad94b17b04b7a6d2f201f8') in 0.0004103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002974 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.8/Starter Assets/Scripts/GazeInputManager.cs
+  artifactKey: Guid(6ef0e4723b64c884699a375196c13ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.8/Starter Assets/Scripts/GazeInputManager.cs using Guid(6ef0e4723b64c884699a375196c13ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89704a7acac79f8c86c7ac35f52d37fa') in 0.0003837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003102 seconds.
+  path: Assets/BNG Framework/Scripts/Helpers/CameraDisabler.cs
+  artifactKey: Guid(ea00b58b21580cd49b53a4c7bc835a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Helpers/CameraDisabler.cs using Guid(ea00b58b21580cd49b53a4c7bc835a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85b78a360255016bfb95186dea549a9f') in 0.0003827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004070 seconds.
+  path: Assets/BNG Framework/Textures/bow_smooth.png
+  artifactKey: Guid(9acec2fec2b034d4daf02618d5aae953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Textures/bow_smooth.png using Guid(9acec2fec2b034d4daf02618d5aae953) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e609caa007bc1b4584853e7cb930628b') in 0.0137323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003421 seconds.
+  path: Assets/BNG Framework/Scripts/Core/JoystickVehicleControl.cs
+  artifactKey: Guid(004633b72e37ef24281063ab28d86156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Core/JoystickVehicleControl.cs using Guid(004633b72e37ef24281063ab28d86156) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5e54728b723a2ee3361d177f9b8eebc') in 0.0005407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003003 seconds.
+  path: Assets/BNG Framework/HandPoser/Scripts/AutoPoser.cs
+  artifactKey: Guid(e477cb3cbcb6aeb43a3f8a3f063ccb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/HandPoser/Scripts/AutoPoser.cs using Guid(e477cb3cbcb6aeb43a3f8a3f063ccb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e893fb63eca956605c5d4c24b456afe') in 0.0003964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002894 seconds.
+  path: Assets/BNG Framework/HandPoser/Scripts/HandPoser.cs
+  artifactKey: Guid(78565d1a7df53dc43951ba503a0c8417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/HandPoser/Scripts/HandPoser.cs using Guid(78565d1a7df53dc43951ba503a0c8417) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'acbe1bb735b9dab7d5588763e8734f30') in 0.0004236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003024 seconds.
+  path: Assets/BNG Framework/HandPoser/Editor/HandPoseSaveAs.cs
+  artifactKey: Guid(f38e12b38e5933249ab7cd0e04a76554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/HandPoser/Editor/HandPoseSaveAs.cs using Guid(f38e12b38e5933249ab7cd0e04a76554) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee25fe7f2728c9d9917331f417298d67') in 0.0004351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003084 seconds.
+  path: Assets/BNG Framework/Scripts/Extras/GrappleShot.cs
+  artifactKey: Guid(93a4586c73f3cb34593b8c6cfe7a10c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Extras/GrappleShot.cs using Guid(93a4586c73f3cb34593b8c6cfe7a10c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54ca787dfc51204cfe2df1645eb31adb') in 0.0004008 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002934 seconds.
+  path: Assets/BNG Framework/Scripts/Extras/HandModelSwitcher.cs
+  artifactKey: Guid(7505ae80e0a2ba34fa1e968f3022f121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Extras/HandModelSwitcher.cs using Guid(7505ae80e0a2ba34fa1e968f3022f121) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '890506c72ff629aad24a096d1e565e80') in 0.0004233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002879 seconds.
+  path: Assets/BNG Framework/Scripts/Extras/TimeController.cs
+  artifactKey: Guid(494e659c238ebc5428bdb4e8d43de9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Extras/TimeController.cs using Guid(494e659c238ebc5428bdb4e8d43de9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '557a3be62d459b19038c893d77070631') in 0.0004131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002934 seconds.
+  path: Assets/BNG Framework/Editor/VRIFGrabpointUpdaterEditor.cs
+  artifactKey: Guid(869e533267912d54a9844bf7ad8b746d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Editor/VRIFGrabpointUpdaterEditor.cs using Guid(869e533267912d54a9844bf7ad8b746d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78a2bea0ba94c0f5360d4eaad7c8b356') in 0.0003506 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002812 seconds.
+  path: Assets/BNG Framework/HandPoser/Scripts/HandPoseDefinition.cs
+  artifactKey: Guid(99758eb4fe6e5f64e8db4a4c330c9f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/HandPoser/Scripts/HandPoseDefinition.cs using Guid(99758eb4fe6e5f64e8db4a4c330c9f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96e756a2ca647880e90be7567e16f80e') in 0.0005459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003087 seconds.
+  path: Assets/BNG Framework/Scripts/Core/Slider.cs
+  artifactKey: Guid(d64e4b00523f7494da7698d0bf06e02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Core/Slider.cs using Guid(d64e4b00523f7494da7698d0bf06e02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66659f0763507fec0ab61337f4a2a791') in 0.0004247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003056 seconds.
+  path: Assets/BNG Framework/Animation/HandPoseDefinitions.cs
+  artifactKey: Guid(b785b7a66cfb53748802d0702182e1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Animation/HandPoseDefinitions.cs using Guid(b785b7a66cfb53748802d0702182e1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'feb4cc9feff34fa7cda285731db66495') in 0.0003784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002862 seconds.
+  path: Assets/BNG Framework/Scripts/Components/CharacterConstraint.cs
+  artifactKey: Guid(c6e9dada19ceb1f45a4798c851cfe64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Components/CharacterConstraint.cs using Guid(c6e9dada19ceb1f45a4798c851cfe64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1b3819d5e7ef331167be9ae1861623c') in 0.000367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003324 seconds.
+  path: Assets/BNG Framework/Scripts/Core/Grabbable.cs
+  artifactKey: Guid(5cdea428d48e2bb488d33d5f75c39bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Core/Grabbable.cs using Guid(5cdea428d48e2bb488d33d5f75c39bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'daffd8d182a9cc215e8b21f77403344f') in 0.00038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002929 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.8/Starter Assets/Scripts/ControllerInputActionManager.cs
+  artifactKey: Guid(f9ac216f0eb04754b1d938aac6380b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.8/Starter Assets/Scripts/ControllerInputActionManager.cs using Guid(f9ac216f0eb04754b1d938aac6380b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c724947403e2279927b1b0199155210b') in 0.0003826 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002657 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.8/Starter Assets/Scripts/TeleportVolumeAnchorAffordanceStateLink.cs
+  artifactKey: Guid(7da98a0edd844d83b9b4de3f91de030c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.8/Starter Assets/Scripts/TeleportVolumeAnchorAffordanceStateLink.cs using Guid(7da98a0edd844d83b9b4de3f91de030c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e99fb24e20d5e66b0470525bf32c2a4') in 0.0004945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002902 seconds.
+  path: Assets/BNG Framework/Scripts/Extras/PlayerScaler.cs
+  artifactKey: Guid(2b1af6f3d27f655418d9c6cad24c6510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Extras/PlayerScaler.cs using Guid(2b1af6f3d27f655418d9c6cad24c6510) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e2700334da967d700bdd96434dcdbec') in 0.0004009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002829 seconds.
+  path: Assets/BNG Framework/Scripts/Helpers/MeshVisibilityHelper.cs
+  artifactKey: Guid(fd1debcaa96400340bacecdb2faeb9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Helpers/MeshVisibilityHelper.cs using Guid(fd1debcaa96400340bacecdb2faeb9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d9213d7f19f2f2854de5e0d6a837add') in 0.0003488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003010 seconds.
+  path: Assets/BNG Framework/Scripts/Core/InputBridge.cs
+  artifactKey: Guid(49877b2c8de1d6e4ebc9ca5d8ea02d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Core/InputBridge.cs using Guid(49877b2c8de1d6e4ebc9ca5d8ea02d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97426b4ecd0fa36fab9aab0f99fcb885') in 0.0004264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003012 seconds.
+  path: Assets/BNG Framework/Scripts/Weapons/MagazineEjector.cs
+  artifactKey: Guid(b157c792f8e1a5241a53c236bb2de00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Weapons/MagazineEjector.cs using Guid(b157c792f8e1a5241a53c236bb2de00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fac3aaf64b0c377bdffc25c08a872b23') in 0.0004162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002779 seconds.
+  path: Assets/BNG Framework/Scripts/Helpers/HandCollision.cs
+  artifactKey: Guid(0eb9682286b0d3e40b5e5404cd745300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Helpers/HandCollision.cs using Guid(0eb9682286b0d3e40b5e5404cd745300) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8854b2d5491e315e164f675105098140') in 0.0003938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003086 seconds.
+  path: Assets/BNG Framework/Scripts/Helpers/TeleportPlayerOnEnter.cs
+  artifactKey: Guid(703250c7568ef9e4b9e6c9c9ecd0e15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Helpers/TeleportPlayerOnEnter.cs using Guid(703250c7568ef9e4b9e6c9c9ecd0e15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6dab79a8080f0612f19dddfced6d5ee1') in 0.0004747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002750 seconds.
+  path: Assets/BNG Framework/Scripts/Core/SnapZoneOffset.cs
+  artifactKey: Guid(804203cdc71657347bc071dfeba41047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Core/SnapZoneOffset.cs using Guid(804203cdc71657347bc071dfeba41047) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d5bcf165346b71281d2bb04ac1973b0') in 0.0004189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002922 seconds.
+  path: Assets/BNG Framework/Scripts/Extras/BulletHole.cs
+  artifactKey: Guid(2288dccbcde2e7b4eabb45b9d0937229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Extras/BulletHole.cs using Guid(2288dccbcde2e7b4eabb45b9d0937229) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca5288345a27b71ae02450773d42fb03') in 0.0004199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002869 seconds.
+  path: Assets/BNG Framework/Scripts/Core/PlayerClimbing.cs
+  artifactKey: Guid(ce69dd88838504c4c988eb0d63cad28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Core/PlayerClimbing.cs using Guid(ce69dd88838504c4c988eb0d63cad28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10b47164a861fa439027a54c010233ed') in 0.0004056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003031 seconds.
+  path: Assets/BNG Framework/Scripts/Extras/ToggleActiveOnInputAction.cs
+  artifactKey: Guid(7ba090305c50883428df8e6727be7d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Extras/ToggleActiveOnInputAction.cs using Guid(7ba090305c50883428df8e6727be7d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05423e059ba68f58a143b4da209a15f9') in 0.0005688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002887 seconds.
+  path: Assets/BNG Framework/Scripts/Components/RotateObject.cs
+  artifactKey: Guid(dfeebfa79f42228429654cb8d1d65c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Components/RotateObject.cs using Guid(dfeebfa79f42228429654cb8d1d65c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a997ec8822a2b2b5b00f040d12e86e4') in 0.0003989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005694 seconds.
+  path: Assets/BNG Framework/Editor/GrabPointTriggerEditor.cs
+  artifactKey: Guid(47e1e5e6619b66144aa83f4507f45bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Editor/GrabPointTriggerEditor.cs using Guid(47e1e5e6619b66144aa83f4507f45bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '289dc0d661e7cfbff42bb7029abe3c48') in 0.0004861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002990 seconds.
+  path: Assets/BNG Framework/Scripts/Components/GrabPointTrigger.cs
+  artifactKey: Guid(537aafab1362ca34a8606b807c1e647c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Components/GrabPointTrigger.cs using Guid(537aafab1362ca34a8606b807c1e647c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a491e1844d29f9cc5a3fa8d6acfd693e') in 0.0004748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002576 seconds.
+  path: Assets/BNG Framework/HandPoser/Editor/HandPoseEditor.cs
+  artifactKey: Guid(8bc39b3abbaa48b418006263df464687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/HandPoser/Editor/HandPoseEditor.cs using Guid(8bc39b3abbaa48b418006263df464687) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80b05f1f9f0bc91ad3d0ee61c6a2de3f') in 0.0004217 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003433 seconds.
+  path: Assets/BNG Framework/Scripts/Helpers/HandRepresentationHelper.cs
+  artifactKey: Guid(c65d14cd77a312543b8512fb34f81be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Helpers/HandRepresentationHelper.cs using Guid(c65d14cd77a312543b8512fb34f81be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b64a0663597262ae21a4c94f35001b22') in 0.0004148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002694 seconds.
+  path: Assets/BNG Framework/Scripts/Weapons/HeldAmmoDisplay.cs
+  artifactKey: Guid(0bb827d9c6e85c148ad3743974083a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Weapons/HeldAmmoDisplay.cs using Guid(0bb827d9c6e85c148ad3743974083a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81ede9b7772bbf11fd83c4aad229d24f') in 0.000385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002634 seconds.
+  path: Assets/BNG Framework/Scripts/Components/ReturnToSnapZone.cs
+  artifactKey: Guid(0e7fc31b3b1411d4e8e8b77b687c7bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Components/ReturnToSnapZone.cs using Guid(0e7fc31b3b1411d4e8e8b77b687c7bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8aecddd719d9276bd146100972dcac0b') in 0.0003745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002829 seconds.
+  path: Assets/BNG Framework/Scripts/Components/ScreenFader.cs
+  artifactKey: Guid(ac09bf699d4234448aa42c086c9f964c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Components/ScreenFader.cs using Guid(ac09bf699d4234448aa42c086c9f964c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7a25c5092132de3c95287a2620bc6e2') in 0.0004253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003088 seconds.
+  path: Assets/BNG Framework/Scenes/XR Demo/DemoScript.cs
+  artifactKey: Guid(0d86c507df3f6f742bd91539b44f3aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scenes/XR Demo/DemoScript.cs using Guid(0d86c507df3f6f742bd91539b44f3aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e782d90a73cdcf887550b9a352dc3f1') in 0.0004433 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002834 seconds.
+  path: Assets/BNG Framework/Scripts/Weapons/WeaponSpinner.cs
+  artifactKey: Guid(ad17f7543137c424dbd26c67cb23e2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Weapons/WeaponSpinner.cs using Guid(ad17f7543137c424dbd26c67cb23e2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4e601ebcd6d70c54cd80dc83f7eea9d') in 0.0004469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003011 seconds.
+  path: Assets/BNG Framework/Scripts/Components/PlaySoundOnGrab.cs
+  artifactKey: Guid(bba4fcd27f5a6764eabc6d9b1000797a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Components/PlaySoundOnGrab.cs using Guid(bba4fcd27f5a6764eabc6d9b1000797a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78b4b42bb8e58819494492f60328ebde') in 0.0003904 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002593 seconds.
+  path: Assets/BNG Framework/HandPoser/Scripts/FingerJoint.cs
+  artifactKey: Guid(4359bb2e5e474ac46a2ca0949cde43da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/HandPoser/Scripts/FingerJoint.cs using Guid(4359bb2e5e474ac46a2ca0949cde43da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce433f8d4bb7d787f3f77d5c90e10784') in 0.0003363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002903 seconds.
+  path: Assets/BNG Framework/Scripts/Core/HeadCollisionMove.cs
+  artifactKey: Guid(da521d716fff7fe48956b689e37e751b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Core/HeadCollisionMove.cs using Guid(da521d716fff7fe48956b689e37e751b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c108c3fff799adaa1d864cdde9a8e717') in 0.0005098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002808 seconds.
+  path: Assets/BNG Framework/Scripts/Weapons/WeaponScope.cs
+  artifactKey: Guid(cdf2c17e367b27644b8427f9b1ed9658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Weapons/WeaponScope.cs using Guid(cdf2c17e367b27644b8427f9b1ed9658) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ffdebb57dc16facabe9ecb47686a33cd') in 0.0004518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002670 seconds.
+  path: Assets/BNG Framework/Scripts/Components/FollowRigidbody.cs
+  artifactKey: Guid(a98a21619d94b5c4fbc373c955cf0432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Components/FollowRigidbody.cs using Guid(a98a21619d94b5c4fbc373c955cf0432) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0ccfe0e08bff87c092473376daa9236') in 0.0004227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002752 seconds.
+  path: Assets/BNG Framework/Editor/IntegrationsEditor.cs
+  artifactKey: Guid(a283a2c1063b7c04f9b3c308733972df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Editor/IntegrationsEditor.cs using Guid(a283a2c1063b7c04f9b3c308733972df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0e0e9fdc17579a93b6810d35ca45405') in 0.0004771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002800 seconds.
+  path: Assets/BNG Framework/Editor/ExplosiveEditor.cs
+  artifactKey: Guid(e15f5b3f290b88a49b50fee0bd6a7dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Editor/ExplosiveEditor.cs using Guid(e15f5b3f290b88a49b50fee0bd6a7dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9f537b6f226e9fb04f2a49b03ecdb4b') in 0.0004284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002826 seconds.
+  path: Assets/BNG Framework/Scripts/Core/SmoothLocomotion.cs
+  artifactKey: Guid(97dc4c75aa9c7ac4496efd08a068c08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Core/SmoothLocomotion.cs using Guid(97dc4c75aa9c7ac4496efd08a068c08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46acf09e82097231cdc56dc3ec74d08c') in 0.0003666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002790 seconds.
+  path: Assets/BNG Framework/Scripts/Helpers/RagdollHelper.cs
+  artifactKey: Guid(ef2950caa7101a04ca3552a7f0992bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Helpers/RagdollHelper.cs using Guid(ef2950caa7101a04ca3552a7f0992bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0be9188c38b7588c9d09118be4bda5c') in 0.0003709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003062 seconds.
+  path: Assets/BNG Framework/Scripts/Extras/CalibratePlayerHeight.cs
+  artifactKey: Guid(115a56ea883bb2c4f8915581bc64614a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Extras/CalibratePlayerHeight.cs using Guid(115a56ea883bb2c4f8915581bc64614a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20381afc47843f07306c8cec3931a8d0') in 0.0005189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003123 seconds.
+  path: Assets/BNG Framework/Scripts/Core/Grabber.cs
+  artifactKey: Guid(31c428201425bc44d8eb038a0fb424d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Core/Grabber.cs using Guid(31c428201425bc44d8eb038a0fb424d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bec161ab3d5ad0c9390d61602326fd4b') in 0.0004406 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003064 seconds.
+  path: Assets/BNG Framework/HandPoser/Editor/HandPoserEditor.cs
+  artifactKey: Guid(37e02d902dca4924aa948a0bf3f1fcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/HandPoser/Editor/HandPoserEditor.cs using Guid(37e02d902dca4924aa948a0bf3f1fcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b9bff17054a0d9e314916402f3ef312') in 0.0003755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003143 seconds.
+  path: Assets/BNG Framework/Scenes/XR Demo/DemoCube.cs
+  artifactKey: Guid(f6a971a07fa54c34b86dcce049282901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scenes/XR Demo/DemoCube.cs using Guid(f6a971a07fa54c34b86dcce049282901) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3e55ca28e7422d9da5cf9b6f2753d06') in 0.0004528 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002734 seconds.
+  path: Assets/BNG Framework/Scripts/Core/Button.cs
+  artifactKey: Guid(805c63d9eece83044b451b679354399c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Core/Button.cs using Guid(805c63d9eece83044b451b679354399c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8048dd6a81556fa9ff9e863f7eb7abd4') in 0.0003881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002833 seconds.
+  path: Assets/BNG Framework/Editor/GrabbableEditor.cs
+  artifactKey: Guid(975ee992e3eb8104fbe7b51b85c0210f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Editor/GrabbableEditor.cs using Guid(975ee992e3eb8104fbe7b51b85c0210f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e057d5022ba3db422f575889ca26403') in 0.0003359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002717 seconds.
+  path: Assets/BNG Framework/Scripts/Extras/LaserPointer.cs
+  artifactKey: Guid(a8cb39b3fbb608e43adfca37db68576c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Extras/LaserPointer.cs using Guid(a8cb39b3fbb608e43adfca37db68576c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5040f79201a6d7c1975eb0730653a3ec') in 0.0004435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002865 seconds.
+  path: Assets/Scripts/ArrowPickupRelay.cs
+  artifactKey: Guid(00481b4553d5f8f418edb55325caca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ArrowPickupRelay.cs using Guid(00481b4553d5f8f418edb55325caca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '145ffef7e67dae7d0a099984dd64ab62') in 0.0004107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002840 seconds.
+  path: Assets/BNG Framework/HandPoser/Scripts/HandPoseBlender.cs
+  artifactKey: Guid(b48885fee737fef4a8d545ca945477d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/HandPoser/Scripts/HandPoseBlender.cs using Guid(b48885fee737fef4a8d545ca945477d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57cfe3a5eb30634486a60da43af08af3') in 0.0003441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002877 seconds.
+  path: Assets/BNG Framework/Editor/ClimbableEditor.cs
+  artifactKey: Guid(799074d974f7169418a8ccf065ba8339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Editor/ClimbableEditor.cs using Guid(799074d974f7169418a8ccf065ba8339) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6dccfc166420e10d12d91581b82638dd') in 0.0003528 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002787 seconds.
+  path: Assets/BNG Framework/Scripts/UI/UICanvasGroup.cs
+  artifactKey: Guid(99f0957b94a53d14495a0541799722b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/UI/UICanvasGroup.cs using Guid(99f0957b94a53d14495a0541799722b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e65dd957eb31afc8de64b113e05c4772') in 0.0003537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002786 seconds.
+  path: Assets/BNG Framework/Scripts/Core/PlayerTeleport.cs
+  artifactKey: Guid(855d72b36bb9d904e80e3c9e587f3d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Core/PlayerTeleport.cs using Guid(855d72b36bb9d904e80e3c9e587f3d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba55be09e2b40e1c8deabd81125be26d') in 0.0003348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002710 seconds.
+  path: Assets/BNG Framework/Scripts/Weapons/Revolver.cs
+  artifactKey: Guid(f4af7aeafcc53d74a99ba2ea66e95522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Weapons/Revolver.cs using Guid(f4af7aeafcc53d74a99ba2ea66e95522) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d0ed80965552689ec5caf945c328a1a') in 0.0004247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002924 seconds.
+  path: Assets/BNG Framework/HandPoser/Editor/AutoPoserEditor.cs
+  artifactKey: Guid(d9920bd4f99b52c45a12f58c934c1025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/HandPoser/Editor/AutoPoserEditor.cs using Guid(d9920bd4f99b52c45a12f58c934c1025) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c55b3b4e74d7336d5009f3215f6e0b7') in 0.0004717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002713 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.8/Starter Assets/Scripts/ControllerAnimator.cs
+  artifactKey: Guid(4a5f76f9ea8c80547973ab01877f9567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.8/Starter Assets/Scripts/ControllerAnimator.cs using Guid(4a5f76f9ea8c80547973ab01877f9567) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f369cbce4e7b1c8630880d42a2544980') in 0.0003981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002683 seconds.
+  path: Assets/BNG Framework/Scripts/Core/PointerEvents.cs
+  artifactKey: Guid(744b3611da944e54da5e532e02ae2454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Core/PointerEvents.cs using Guid(744b3611da944e54da5e532e02ae2454) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35574d9c99ef0d6f1c55e3df5364a857') in 0.0004113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002838 seconds.
+  path: Assets/BNG Framework/Scripts/Extras/MovingPlatform.cs
+  artifactKey: Guid(ecb5dba1f53910643be3ea0d68734b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Extras/MovingPlatform.cs using Guid(ecb5dba1f53910643be3ea0d68734b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b8a34420e62d45ea9436332efd7f4c3') in 0.0003419 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002672 seconds.
+  path: Assets/BNG Framework/Scripts/Components/VelocityTracker.cs
+  artifactKey: Guid(04104945fd442644c8544504be0894a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Components/VelocityTracker.cs using Guid(04104945fd442644c8544504be0894a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b5f020cdab42487a6a2edf59a4759bb') in 0.0003482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002683 seconds.
+  path: Assets/BNG Framework/Scripts/Components/Climbable.cs
+  artifactKey: Guid(f023a0895b5d26549a46b1521aa5bce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Components/Climbable.cs using Guid(f023a0895b5d26549a46b1521aa5bce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39dc12bb02711e095793a6a2294880fe') in 0.0004426 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002779 seconds.
+  path: Assets/BNG Framework/Scripts/Extras/MoveToWaypoint.cs
+  artifactKey: Guid(f3d1c105c35f2a345a7f152bf56c8ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Extras/MoveToWaypoint.cs using Guid(f3d1c105c35f2a345a7f152bf56c8ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0461158f2ce0b528bcf24919ae8a4eb') in 0.0004601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002873 seconds.
+  path: Assets/BNG Framework/Scripts/Weapons/MagazineSlide.cs
+  artifactKey: Guid(fc39384ecbf0a1f41881736893e14af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Weapons/MagazineSlide.cs using Guid(fc39384ecbf0a1f41881736893e14af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4497fcf4e87f0fb4f64fb6eea2058707') in 0.0004546 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002997 seconds.
+  path: Assets/BNG Framework/Scripts/Helpers/DoorHelper.cs
+  artifactKey: Guid(e50505fcf90a3c841b8e835665efb9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Helpers/DoorHelper.cs using Guid(e50505fcf90a3c841b8e835665efb9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82730c86997359ae563942aa267f2079') in 0.0004444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002540 seconds.
+  path: Assets/BNG Framework/Scripts/Helpers/GrabRingHelper.cs
+  artifactKey: Guid(ccec9b4b958866d45bfcee514bd8adeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Helpers/GrabRingHelper.cs using Guid(ccec9b4b958866d45bfcee514bd8adeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21c95f91ebf093d980cb334c136d7048') in 0.0003694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002542 seconds.
+  path: Assets/BNG Framework/Scripts/Helpers/HandPhysics.cs
+  artifactKey: Guid(c71bb1d10de4de24b8bd5cdceda82463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Helpers/HandPhysics.cs using Guid(c71bb1d10de4de24b8bd5cdceda82463) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb325f7d7e47a24ad523642bef9f6f73') in 0.0003488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002983 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.8/Starter Assets/DemoSceneAssets/Scripts/IncrementUIText.cs
+  artifactKey: Guid(ba6ff5e7c92519444bc2a7ca46558963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.8/Starter Assets/DemoSceneAssets/Scripts/IncrementUIText.cs using Guid(ba6ff5e7c92519444bc2a7ca46558963) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f07c7cef24878115b9b4d626ceb39f7d') in 0.0003661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002705 seconds.
+  path: Assets/BNG Framework/Scripts/Components/Damageable.cs
+  artifactKey: Guid(5c6de38f13d6b1443b2c5a5a20ac08d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Components/Damageable.cs using Guid(5c6de38f13d6b1443b2c5a5a20ac08d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf8c965ffc60c051fe051dac631c419b') in 0.0004375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002998 seconds.
+  path: Assets/BNG Framework/Scripts/Extras/ArrowGrabArea.cs
+  artifactKey: Guid(8801433c5c8fa704cb338db881663ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Extras/ArrowGrabArea.cs using Guid(8801433c5c8fa704cb338db881663ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb6031172c279ba4151cecb1aa760b62') in 0.0004711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002979 seconds.
+  path: Assets/BNG Framework/Scripts/Core/SnapZonePreview.cs
+  artifactKey: Guid(b757d849e74efdd4b9c5e58e4e0786c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Core/SnapZonePreview.cs using Guid(b757d849e74efdd4b9c5e58e4e0786c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd63786fd5de90b42645411ee5383e6da') in 0.0005211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002787 seconds.
+  path: Assets/BNG Framework/Scripts/Helpers/StaticBatch.cs
+  artifactKey: Guid(577170b3cd31a4b4089bbe7fa6fe5019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Helpers/StaticBatch.cs using Guid(577170b3cd31a4b4089bbe7fa6fe5019) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '927aba2cd14cc32812acba4de253af0c') in 0.0003914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002432 seconds.
+  path: Assets/BNG Framework/Scripts/Helpers/UITrigger.cs
+  artifactKey: Guid(a87d4d4dc2f539b4b8e7202d4196bcd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Helpers/UITrigger.cs using Guid(a87d4d4dc2f539b4b8e7202d4196bcd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35537f938e95ca919eae0f5006e31e67') in 0.0003282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002850 seconds.
+  path: Assets/BNG Framework/Scripts/Components/PunctureCollider.cs
+  artifactKey: Guid(c539204c5d04e1f46956776d6c3f32b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Components/PunctureCollider.cs using Guid(c539204c5d04e1f46956776d6c3f32b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7949c593ca1dc3431ff3d25f8585431b') in 0.0003916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010182 seconds.
+  path: Assets/BNG Framework/Scripts/Core/HandModelSelector.cs
+  artifactKey: Guid(6194a870e97cfe14081ff58549a6852a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Core/HandModelSelector.cs using Guid(6194a870e97cfe14081ff58549a6852a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dcf29ce409ab2704462ffaf744b1e65b') in 0.0005701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003458 seconds.
+  path: Assets/BNG Framework/Scripts/Weapons/WeaponSlide.cs
+  artifactKey: Guid(080df18a7cbaf374d8896a12a8aec64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Weapons/WeaponSlide.cs using Guid(080df18a7cbaf374d8896a12a8aec64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a83ae962c4ed1ee301c70dfa03e75d36') in 0.0004846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002908 seconds.
+  path: Assets/BNG Framework/Scripts/Core/GrabbablesInTrigger.cs
+  artifactKey: Guid(2d4b3aeee51a5bd48bf569efd03b09ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Core/GrabbablesInTrigger.cs using Guid(2d4b3aeee51a5bd48bf569efd03b09ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f08cddd25d04322b516eee84734e75af') in 0.0004356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002804 seconds.
+  path: Assets/BNG Framework/Scripts/Core/PlayerMovingPlatformSupport.cs
+  artifactKey: Guid(57ed093aba1f3dc40b680242d0f0e734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Core/PlayerMovingPlatformSupport.cs using Guid(57ed093aba1f3dc40b680242d0f0e734) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22dfca8abb9e59da0d45cc48e0ab926a') in 0.0004066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002856 seconds.
+  path: Assets/BNG Framework/Editor/TrackedDeviceEditor.cs
+  artifactKey: Guid(3251743c358f2a24f85ecb8c3a4abb31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Editor/TrackedDeviceEditor.cs using Guid(3251743c358f2a24f85ecb8c3a4abb31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bee7eeb6f543a307cb2b99aff30235cd') in 0.0004548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003003 seconds.
+  path: Assets/BNG Framework/Scripts/Extras/DrawerSound.cs
+  artifactKey: Guid(b5c6e3ac364b4d649b78d687ca95deb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Extras/DrawerSound.cs using Guid(b5c6e3ac364b4d649b78d687ca95deb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b890e18ddc023f513283e8b62b477ef1') in 0.0005073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003016 seconds.
+  path: Assets/BNG Framework/Scripts/Extras/BowArm.cs
+  artifactKey: Guid(4ef08ede0c038be48809d1b96b677cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Extras/BowArm.cs using Guid(4ef08ede0c038be48809d1b96b677cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f41024cf3f56f2ef735ad387378bb878') in 0.0005038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003033 seconds.
+  path: Assets/BNG Framework/Editor/LeverEditor.cs
+  artifactKey: Guid(8a314e76175a06e45a987114e29b7029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Editor/LeverEditor.cs using Guid(8a314e76175a06e45a987114e29b7029) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '397fd4dff388bb8c63722e6e74e285aa') in 0.0004493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002830 seconds.
+  path: Assets/BNG Framework/Scripts/Extras/VehicleController.cs
+  artifactKey: Guid(13d7e6df6c45338459dbbbe98a91f2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Extras/VehicleController.cs using Guid(13d7e6df6c45338459dbbbe98a91f2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97f4165312ad945df174cbdf4711ebf5') in 0.0004435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003265 seconds.
+  path: Assets/BNG Framework/Scripts/Core/HeadCollisionFade.cs
+  artifactKey: Guid(60e921fb01765594ea413047ebcfc65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Scripts/Core/HeadCollisionFade.cs using Guid(60e921fb01765594ea413047ebcfc65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8f044c4059bf3861db0165c32e30a88') in 0.0004444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 233.530611 seconds.
+  path: Assets/BNG Framework/Materials/BNG_Atlas_A.mat
+  artifactKey: Guid(2c986bd867496904bb4d93ca6c777f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Materials/BNG_Atlas_A.mat using Guid(2c986bd867496904bb4d93ca6c777f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a43697df22380eab7cfa6335402b99bc') in 0.0188824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/BNG Framework/Materials/GridGrey.mat
+  artifactKey: Guid(4b82e6e57b94d4647bd0ca0e48a1bb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Materials/GridGrey.mat using Guid(4b82e6e57b94d4647bd0ca0e48a1bb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0fb947804fdf7d1f487d8021502119e') in 0.0465001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BNG Framework/Materials/GridDark.mat
+  artifactKey: Guid(f1b421362f6dab94ead65ca98c6043fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Materials/GridDark.mat using Guid(f1b421362f6dab94ead65ca98c6043fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a77a1f9cde2fa4a71e423a3a7f51285e') in 0.013848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BNG Framework/Materials/GridNavyDark.mat
+  artifactKey: Guid(da784f6b5cf7dcd42be638248c6086cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Materials/GridNavyDark.mat using Guid(da784f6b5cf7dcd42be638248c6086cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a939415e44f980071cfe239637ea10cd') in 0.0136362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BNG Framework/Materials/GridBlack.mat
+  artifactKey: Guid(9eaba6addf8855b4682d6da44b1d7ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Materials/GridBlack.mat using Guid(9eaba6addf8855b4682d6da44b1d7ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52bb1166f8cd476a74e5a29781772a37') in 0.0140909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BNG Framework/Materials/GridOrange.mat
+  artifactKey: Guid(5630dc096eda4ef40a62570257f9bb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Materials/GridOrange.mat using Guid(5630dc096eda4ef40a62570257f9bb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b69e309a7a61502f6b5d0e99f211562c') in 0.0130579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.095226 seconds.
+  path: Assets/BNG Framework/Materials/GridPurple.mat
+  artifactKey: Guid(6e1bc48a70d4eac43979a3d635c75933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Materials/GridPurple.mat using Guid(6e1bc48a70d4eac43979a3d635c75933) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2290f16a8bb93a28e90572216e8fc73e') in 0.0179553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/BNG Framework/Materials/GridTurquiose.mat
+  artifactKey: Guid(810568a8d5fe6de4490cd0917434da40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Materials/GridTurquiose.mat using Guid(810568a8d5fe6de4490cd0917434da40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de66813f78f901c699c2d4a73135a3fb') in 0.0131119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/BNG Framework/Materials/GridTeal.mat
+  artifactKey: Guid(4b5eff3cbe1173f4f8fa582af7aa1c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Materials/GridTeal.mat using Guid(4b5eff3cbe1173f4f8fa582af7aa1c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30f148d0d34861b0c7d2e77f525acb7a') in 0.0140982 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002039 seconds.
+  path: Assets/BNG Framework/Materials/HolographicDot.mat
+  artifactKey: Guid(8a1f434f4f90fd54581655369aaf4dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Materials/HolographicDot.mat using Guid(8a1f434f4f90fd54581655369aaf4dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '591582080df5221a13bc74c649a380e0') in 0.0135422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/BNG Framework/Materials/GridYellow.mat
+  artifactKey: Guid(fc69318049f082042bb7eb4cecce83e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Materials/GridYellow.mat using Guid(fc69318049f082042bb7eb4cecce83e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c3b96d4b2aecaa00f029730c23c59cc') in 0.01973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/BNG Framework/Materials/Holographic.mat
+  artifactKey: Guid(e170fee7c22c3ed42956c337f391b7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Materials/Holographic.mat using Guid(e170fee7c22c3ed42956c337f391b7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9af118733e94e31b96d66c1e615fe54') in 0.0135118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/BNG Framework/Materials/Metal.mat
+  artifactKey: Guid(63c92fe1c18deff44ab8c6be21543b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Materials/Metal.mat using Guid(63c92fe1c18deff44ab8c6be21543b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57183e6de136d31cdb421480bf86211e') in 0.0308637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/BNG Framework/Materials/Pink.mat
+  artifactKey: Guid(53dec95df1424f74b83466b9d02ae8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Materials/Pink.mat using Guid(53dec95df1424f74b83466b9d02ae8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac366bd67419bd4406248e19089f7eaf') in 0.0152123 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001935 seconds.
+  path: Assets/BNG Framework/Materials/Pistol.mat
+  artifactKey: Guid(0eaf56d042d189a46a4569df27725043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Materials/Pistol.mat using Guid(0eaf56d042d189a46a4569df27725043) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1e2dfb2f20519db130129185959cac5') in 0.0161946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1130.820995 seconds.
+  path: Assets/BNG Framework/Models/BNG_Attack_Stick.fbx
+  artifactKey: Guid(68704c3247d1e4b41a01d55318d18e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Models/BNG_Attack_Stick.fbx using Guid(68704c3247d1e4b41a01d55318d18e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '453aff5b2f0c5be18545cffdfd969c04') in 0.1535113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/BNG Framework/Models/BNG_E_Orange.fbx
+  artifactKey: Guid(017351951c7b94c42a992ae625ec6a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Models/BNG_E_Orange.fbx using Guid(017351951c7b94c42a992ae625ec6a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '131cb8ece148c87d5fe84b9ee4299f21') in 0.2070956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 58
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/BNG Framework/Models/BNG_Door_Wood.fbx
+  artifactKey: Guid(9c02fb022ecc229439313ddae3d64fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Models/BNG_Door_Wood.fbx using Guid(9c02fb022ecc229439313ddae3d64fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9eb9495f8c8b57f90075764d3195d928') in 0.0563927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/BNG Framework/Models/BNG_E_Orange.prefab
+  artifactKey: Guid(bf7b8c04fcdaf6f469cd8fe88edc4d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Models/BNG_E_Orange.prefab using Guid(bf7b8c04fcdaf6f469cd8fe88edc4d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '575439c216875e615842d9778647b6ab') in 0.016443 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 102
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/BNG Framework/Models/BNG_Crate.fbx
+  artifactKey: Guid(1f61f9023149fdd4f8030b05848fbb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Models/BNG_Crate.fbx using Guid(1f61f9023149fdd4f8030b05848fbb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82fca0c3e67a688c33f796bb3b7c38a2') in 0.3215333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 163
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/BNG Framework/Models/BNG_E_Gray.prefab
+  artifactKey: Guid(7ce97206b7fb06b44b1ca9cb6f290516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Models/BNG_E_Gray.prefab using Guid(7ce97206b7fb06b44b1ca9cb6f290516) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e72f2f2fa0e5804e93de3cc9e3ebc37') in 0.0152545 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 111
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/BNG Framework/Models/BNG_Box.fbx
+  artifactKey: Guid(307712b64e304ee4f80c53dc6d13c1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Models/BNG_Box.fbx using Guid(307712b64e304ee4f80c53dc6d13c1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c53e153f4da94a12b4b67a2815286d9a') in 0.0320796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BNG Framework/Models/BNG_Melee_Knife.fbx
+  artifactKey: Guid(4cfe08750b57e6347bbcf63d5b7e6095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Models/BNG_Melee_Knife.fbx using Guid(4cfe08750b57e6347bbcf63d5b7e6095) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65c568d84efd93dd530f1ed23c3d9cc0') in 0.0176333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/BNG Framework/Models/BNG_Gun_Rifle.fbx
+  artifactKey: Guid(629446d0a25b751468c9d7eb68c7cb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Models/BNG_Gun_Rifle.fbx using Guid(629446d0a25b751468c9d7eb68c7cb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e210b417dab7ece5c17fd738da619ead') in 0.118565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 58
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/BNG Framework/Models/BNG_Buttons.fbx
+  artifactKey: Guid(5a7d15da9040a6b43b2b2e7f08ac44f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Models/BNG_Buttons.fbx using Guid(5a7d15da9040a6b43b2b2e7f08ac44f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de673310626daf5640d98f1f8db3b21c') in 0.2399747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 141
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

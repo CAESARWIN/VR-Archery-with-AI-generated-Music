@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 82966c5ffff6f27409763edad4f83104
+timeCreated: 1484047769
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118659
+  packageName: Archery Shoot Kit
+  packageVersion: 1.0
+  assetPath: Assets/ASK/Graphics/Materials/red.mat
+  uploadId: 245936

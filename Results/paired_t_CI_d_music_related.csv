@@ -1,0 +1,6 @@
+Measure,M_Fixed,SD_Fixed,M_Adaptive,SD_Adaptive,Mdiff (Fixed−Adaptive),95% CI LL,95% CI UL,t(21),p (two-tailed),Cohen's dz
+Music_Awareness,4.27,0.77,4.73,1.03,-0.45,-1.08,0.18,-1.482,= .153,-0.32
+Music_StressIncrease,4.55,0.74,5.64,0.66,-1.09,-1.22,-0.96,-17.39,< .001,-3.71
+Music_EmotionImpact,4.23,0.87,4.64,0.73,-0.41,-0.67,-0.15,-3.25,= .004,-0.69
+Music_ImmersionBoost,4.27,1.03,4.5,0.8,-0.23,-0.84,0.38,-0.79,= .438,-0.17
+Music_PerformanceImpact,4.23,0.97,4.64,0.9,-0.41,-1.0,0.18,-1.439,= .165,-0.31
